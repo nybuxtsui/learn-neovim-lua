@@ -1,3 +1,6 @@
+安装 ripgrep
+安装 im-select
+
 ## 📜 Neovim 配置实战：从 0 到 1 打造自己的 IDE
 
 《学习 Neovim 全 lua 配置》已经在稀土掘金专业编辑的指点下完全重写。
