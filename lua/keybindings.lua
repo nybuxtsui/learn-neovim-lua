@@ -126,8 +126,9 @@ map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
 map("n", "<leader>m", ":NvimTreeToggle<CR>", opt)
 -- 列表快捷键
 pluginKeys.nvimTreeList = { -- 打开文件或文件夹
-  { key = { "o", "<2-LeftMouse>" }, action = "edit" },
-  { key = "<CR>", action = "system_open" },
+  { key = { "o", "<2-LeftMouse>", "<CR>" }, action = "edit" },
+
+  -- { key = "<CR>", action = "system_open" },
   -- v分屏打开文件
   { key = "v", action = "vsplit" },
   -- h分屏打开文件
